@@ -1,0 +1,60 @@
+header{
+    width: 100%;
+    
+    position:fixed;
+    /* background-color: red; */
+    height: 30px;
+    margin-top: 20px ; 
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 13px;
+    padding-left:15px ;
+    margin-left: 0px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+     color: white;
+     
+}
+
+
+nav > ul > li > a:hover{
+    color:lightgreen;
+    text-decoration: none;
+    
+}
+
+
+
+.f{
+    margin-left: 1000px;
+   
+}
+
+
+
+@media screen and (max-height:500px){
+    header{
+        background-color: white;
+    }
+}
+
+
+.hi{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans'; 
+   margin-top: 150px;
+    margin-left: 12%;
+    font-size: 6rem;
+
+}
+
+
+.col1{
+    background-color: orange;
+}
