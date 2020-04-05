@@ -52,7 +52,7 @@ nav > ul > li > a:hover{
 }
 
 
-.hi{
+h1{
     color:white;
     text-transform: uppercase;
     font-weight: bold;
@@ -75,8 +75,6 @@ nav > ul > li > a:hover{
     background-color: rgb(255, 142, 5);
      height: 38rem;
     
-     
-    
 }
 
 .col2{
@@ -91,13 +89,16 @@ nav > ul > li > a:hover{
 
 }
 
+
+
 .p1{
     color: white;
     text-align: justify;
     margin-top: 8rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    font-size: 20px;
+    font-size: 1.25rem;
+    
 }
 
 .p2{
@@ -106,7 +107,7 @@ nav > ul > li > a:hover{
     margin-top: 2rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .p3{
@@ -115,6 +116,43 @@ nav > ul > li > a:hover{
     margin-top: 2rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
+.row3{
+    margin-top: 7rem;
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.p4{
+    color: white;
+    font-size: 1.25rem;
+    text-align: justify;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 2em;
+}
+
+.row5{
+    margin-left:14em;
+    margin-right: 13em;
+    margin-top: 1.25em;
+    /* background-color: lightcoral; */
+}
+
+.row6{
+    margin-left:14em;
+    margin-right: 13em;
+    margin-top: 1.25em;
+    /* background-color: lightcyan; */
+}
+ 
+
+iframe{
+    width:20rem; 
+    height: 13rem;
+}
