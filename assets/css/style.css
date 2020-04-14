@@ -63,16 +63,20 @@ h1{
 
 }
 
+.hi{
+    margin-top: 3em;
+}
+
 .row1{
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .row2{
-    margin-top: 14rem;
+    margin-top: 12rem;
 }
 
 .col1{
-    background-color: rgb(255, 142, 5);
+    background-color: rgb(218, 123, 8);
      height: 38rem;
     
 }
@@ -120,14 +124,25 @@ h1{
 }
 
 .row3{
-    margin-top: 7rem;
+    margin-top: 0rem;
+}
+
+#vid{
+    margin-top:2em;
 }
 
 h2{
     color: white;
-    font-size: 3rem;
+    font-size: 3rem;  
+    /* border-bottom: white solid 2px; */
 }
 
+/* .col11{
+    width: 100px;
+    background-color: violet;
+    margin-left: 10em;
+    margin-right: 10em;
+} */
 .p4{
     color: white;
     font-size: 1.25rem;
@@ -197,14 +212,14 @@ iframe{
 
 
 .col10{
-    background-color: rgb(255, 142, 5);
+    background-color:  rgb(218, 123, 8);
     height: 35rem;
     padding: 0px;
     
 }
 
 #sp{
-    padding-top: 2em;
+    padding-top: 1em;
     text-align: center;
 }
 
@@ -242,3 +257,136 @@ iframe{
     height: 35rem;
 
 }
+
+.row8{
+    margin-top: 4em;
+}
+
+.med1{
+    margin-top: 1em;
+    /* background-color: lightcoral; */
+}
+
+/* .med2{
+    background-color: lightgreen;
+    
+} */
+
+.p8{
+    margin-left: 15em;
+    margin-top: 1em;
+    margin-right: 5em;
+    font-size: 1.25rem;
+    color: white;
+    
+
+}
+
+.pic3{
+    margin-right: 14em;
+    margin-bottom: 3em;
+    margin-top: 7em;
+    width: 28em;
+    height:19em;
+    
+}
+
+.but{
+    width: 15em;
+    margin-left: 20em;
+    margin-top: 2em;
+    background-color: black;
+    border: white solid ;
+}
+
+.row9{
+    margin-top: 3em;
+}
+
+/* .med3{
+    background-color: violet;
+} */
+
+/* .med2{
+    background-color: turquoise;
+} */
+
+.pic4{
+    margin-top: 7em;
+    margin-left: 14em;
+    width: 28em;
+    height:19em;
+}
+
+.p9{
+    margin-left: 6em;
+    margin-top: 1em;
+    margin-right: 13em;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.but1{
+    width: 15em;
+    margin-top: 2em;
+    background-color: black;
+    border: white solid ;
+    margin-right: 20em;
+}
+
+.con{
+    background-image: url('../image/ppp.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con1{
+    background-color: rgb(68, 67, 67);
+}
+
+.row10{
+    background-color:rgb(218, 123, 8);
+    margin-top: 7em;
+
+}
+.book{
+    margin-left: 15em;
+    margin-top: 2em;
+}
+
+.p10{
+    color: white;
+    margin-top: 2em;
+    font-size: 1.25rem;
+    margin-left: 13em;
+    margin-right: 13em;
+}
+
+.pic5{
+    width: 23em;
+    height:27em;
+    margin-left: 8em;
+
+}
+.row11{
+    background-color:rgb(218, 123, 8) ;
+    margin-top: 7em;
+    height: 38em;
+}
+
+.col13{
+    background-color: green;
+}
+.col14{
+    background-color: hotpink;
+}
+
+
+#contact{
+    margin-left: 8em;
+
+}
+
+.p11{
+    color: white;
+}
+
