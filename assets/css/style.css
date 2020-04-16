@@ -346,6 +346,7 @@ iframe{
 .row10{
     background-color:rgb(218, 123, 8);
     margin-top: 7em;
+    height: 50em;
 
 }
 .book{
@@ -370,23 +371,86 @@ iframe{
 .row11{
     background-color:rgb(218, 123, 8) ;
     margin-top: 7em;
-    height: 38em;
+    height: 50em;
 }
 
 .col13{
-    background-color: green;
+    /* background-color: green; */
+    width: 53em;
 }
 .col14{
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    width: 45.5em;
 }
 
 
 #contact{
     margin-left: 8em;
+    margin-top: 1.5em;
 
 }
 
 .p11{
     color: white;
+    margin-left: 13em;
+    margin-right: 2em;
+    margin-top: 2em;
+    font-size: 1.25rem;
+}
+
+.form1{
+    margin-top: 4.3em;
+    margin-left: 1em;
+}
+.form2{
+    margin-top: 1.3em;
+    margin-left: 1em;
+}
+
+.form3{
+    margin-top: 1.3em;
+    margin-left: 1em;
+}
+
+.form4{
+    margin-top: 1.3em;
+    margin-left: 1em;
+}
+.form5{
+    margin-top: 1.3em;
+    margin-left: 1em;
+}
+
+
+.form{
+    margin-left: 1em;
+    
+}
+
+.p12{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.ans{
+    height: 3.5em;
+    width: 35em;
+    background-color: rgb(223, 215, 215);
+}
+
+.sub{
+    width:5em;
+    height: 3.5em;
+    background-color: rgb(223, 219, 215);
+    color:rgb(49, 47, 46);
+
+
+}
+
+#comment{
+    width: 35em;
+    background-color: rgb(223, 215, 215);
+
 }
 
