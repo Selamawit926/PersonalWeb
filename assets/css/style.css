@@ -454,3 +454,65 @@ iframe{
 
 }
 
+.conn{
+    background-color: green;
+    
+}
+
+.row12{
+    background-color: darkblue;
+}
+
+.row13{
+    background-color: darkcyan;
+}
+
+.row14{
+    background-color: darkmagenta;
+}
+
+.foot{
+    /* background-color: firebrick; */
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    
+}
+
+.copy{
+    background-color: white;
+    margin-top: 3em;
+}
+
+
+.links{
+    margin-top: 2em;
+    margin-left: 31em;
+}
+
+.button{
+    margin-top: 2em;
+    margin-left: 32em;
+}
+
+#myBtn{
+    border-radius:50%;
+    height: 4em;
+    width: 4em;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: black;
+    background-color: white;
+}
+
+#pic6{
+    width: 70%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.hr{
+    margin: 0 40%;
+}
