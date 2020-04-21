@@ -5,7 +5,9 @@
     
 } */
 
-
+body{
+    position: relative;
+}
 
 header{
     width: 100%;
@@ -46,8 +48,8 @@ nav > ul > li > a:hover{
 
 
 @media screen and (max-height:500px){
-    header{
-        background-color: white;
+    .p1{
+        font-size: 0.5em;
     }
 }
 
@@ -80,6 +82,8 @@ h1{
      height: 38rem;
     
 }
+
+
 
 .col2{
     height: 38rem;
@@ -204,6 +208,7 @@ iframe{
 
 .row7{
     margin-top: 7rem;
+    
 }
 .col9{
     height: 35rem;
@@ -335,9 +340,10 @@ iframe{
 }
 
 .con{
-    background-image: url('../image/ppp.JPG');
+    /* background-image: url('../image/ppp.JPG'); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(68, 67, 67);
 }
 .con1{
     background-color: rgb(68, 67, 67);
@@ -454,22 +460,8 @@ iframe{
 
 }
 
-.conn{
-    background-color: green;
-    
-}
 
-.row12{
-    background-color: darkblue;
-}
 
-.row13{
-    background-color: darkcyan;
-}
-
-.row14{
-    background-color: darkmagenta;
-}
 
 .foot{
     /* background-color: firebrick; */
@@ -487,7 +479,12 @@ iframe{
 
 .links{
     margin-top: 2em;
-    margin-left: 31em;
+    margin-left: 29em;
+    
+}
+
+#links{
+    margin-left: 1em;
 }
 
 .button{
@@ -516,3 +513,30 @@ a:link{
 .hr{
     margin: 0 40%;
 }
+
+.btn{
+    background-color: tomato;
+}
+
+.navigation{
+    background-color: rgba(0, 128, 128, 0.315);
+    
+}
+
+.navs{
+    color:white;
+    font-size: 0.85em;
+
+}
+
+
+.bar > li > a:hover{
+    color: rgb(67, 185, 67);
+}
+
+.facebook{
+    margin-left: 60em;
+}
+
+
+
