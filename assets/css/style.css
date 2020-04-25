@@ -1,47 +1,4 @@
-/* body{
-    background-image: url('../image/back.jpg');
-    background-repeat: no-repeat;
-    background-size:98.9rem 280rem ;
-    
-} */
 
-
-
-/* header{
-    width: 100%;
-    position:fixed;
-    background-color: red;
-    height: 30px;
-    margin-top: 20px ; 
-    overflow: hidden;
-} */
-
-/* nav > ul > li {
-    display: inline-block;
-    font-size: 13px;
-    padding-left:15px ;
-    margin-left: 0px;
-}
-
-nav > ul > li > a{
-    text-decoration: none;
-     color: white;
-     
-}
-
-
-nav > ul > li > a:hover{
-    color:lightgreen;
-    text-decoration: none;
-    
-}
-
-
-
-.f{
-    margin-left: 1000px;
-   
-} */
 
 
 
@@ -64,6 +21,7 @@ h1{
 .hi{
     margin-top: 3em;
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .row1{
@@ -225,17 +183,14 @@ iframe{
 .p5{
     color: white;
     text-align: justify;
-    
     padding-left: 6vw;
     padding-right: 6vw;
     font-size: 1.25vw;
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    margin-top: 3vw;
 }
  
-#p5{
-    margin-top: 2vw;
-}
+
 
 
 .pic2{
@@ -379,9 +334,10 @@ iframe{
 
 
 .con{
-    /* background-image: url('../image/ppp.JPG'); */
+    background-image: url('../image/pro.JPG');
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
     background-color: rgb(68, 67, 67);
 }
 .con1{
@@ -414,6 +370,7 @@ iframe{
     margin-left: 13em;
     margin-right: 13em;
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2vw;
     
 }
 
@@ -421,6 +378,7 @@ iframe{
     width: 23vw;
     height:27vw;
     margin-left: 8vw;
+    margin-top: 1vw;
 
 }
 .row11{
