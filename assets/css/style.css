@@ -5,20 +5,18 @@
     
 } */
 
-body{
-    position: relative;
-}
 
-header{
+
+/* header{
     width: 100%;
     position:fixed;
-    /* background-color: red; */
+    background-color: red;
     height: 30px;
     margin-top: 20px ; 
     overflow: hidden;
-}
+} */
 
-nav > ul > li {
+/* nav > ul > li {
     display: inline-block;
     font-size: 13px;
     padding-left:15px ;
@@ -43,14 +41,12 @@ nav > ul > li > a:hover{
 .f{
     margin-left: 1000px;
    
-}
+} */
 
 
 
-@media screen and (max-height:500px){
-    .p1{
-        font-size: 0.5em;
-    }
+body{
+    overflow-x: hidden;
 }
 
 
@@ -67,6 +63,7 @@ h1{
 
 .hi{
     margin-top: 3em;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .row1{
@@ -75,25 +72,26 @@ h1{
 
 .row2{
     margin-top: 12rem;
+    
 }
 
 .col1{
     background-color: rgb(218, 123, 8);
-     height: 38rem;
+     height: 38vw;
     
 }
 
 
 
 .col2{
-    height: 38rem;
+    height: 38vw;
     padding:0px;
   
 }
 
 .pic{
     width: 100%;
-    height: 38rem;
+    height: 38vw;
 
 }
 
@@ -102,30 +100,23 @@ h1{
 .p1{
     color: white;
     text-align: justify;
-    margin-top: 8rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    font-size: 1.25rem;
+    margin-left: 6vw;
+    padding-right: 6vw;
+    font-size: 1.25vw;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
-.p2{
-    color: white;
-    text-align: justify;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    font-size: 1.25rem;
+#p1{
+    margin-top: 7vw;
+} 
+
+#p2{
+    margin-top: 3vw;
 }
 
-.p3{
-    color: white;
-    text-align: justify;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    font-size: 1.25rem;
-}
+
+
 
 .row3{
     margin-top: 0rem;
@@ -138,6 +129,7 @@ h1{
 h2{
     color: white;
     font-size: 3rem;  
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     /* border-bottom: white solid 2px; */
 }
 
@@ -149,11 +141,12 @@ h2{
 } */
 .p4{
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     text-align: justify;
     margin-left: 15em;
     margin-right: 15em;
     margin-top: 2em;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .row5{
@@ -201,8 +194,8 @@ h2{
  
 
 iframe{
-    width:20rem; 
-    height: 13rem;
+    width:20vw; 
+    height: 13vw;
 }
 
 
@@ -211,20 +204,20 @@ iframe{
     
 }
 .col9{
-    height: 35rem;
+    height: 3vw;
     padding: 0px;
 }
 
 
 .col10{
     background-color:  rgb(218, 123, 8);
-    height: 35rem;
+    height: 35vw;
     padding: 0px;
     
 }
 
 #sp{
-    padding-top: 1em;
+    padding-top: 1vw;
     text-align: center;
 }
 
@@ -232,34 +225,22 @@ iframe{
 .p5{
     color: white;
     text-align: justify;
-    margin-top: 2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    font-size: 1.25rem;
+    
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-size: 1.25vw;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
-
-.p6{
-    color: white;
-    text-align: justify;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    font-size: 1.25rem;
+ 
+#p5{
+    margin-top: 2vw;
 }
 
-.p7{
-    color: white;
-    text-align: justify;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    font-size: 1.25rem;
-}
 
 .pic2{
     width: 100%;
-    height: 35rem;
+    height: 35vw;
 
 }
 
@@ -278,11 +259,12 @@ iframe{
 } */
 
 .p8{
-    margin-left: 15em;
-    margin-top: 1em;
+    margin-left: 10em;
+    margin-top: 2em;
     margin-right: 5em;
-    font-size: 1.25rem;
+    font-size: 1.1vw;
     color: white;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     
 
 }
@@ -290,18 +272,63 @@ iframe{
 .pic3{
     margin-right: 14em;
     margin-bottom: 3em;
-    margin-top: 7em;
-    width: 28em;
-    height:19em;
+    margin-top: 4em;
+    width: 28vw;
+    height:19vw;
     
 }
 
+
+
+
+.btn-primary.but{
+    background-color: transparent;
+   
+}
+
+
+
+.btn-primary.but:hover{
+    background-color: whitesmoke ;
+    border: white solid;
+    color: rgb(77, 76, 76);
+    cursor: pointer;
+    cursor:hand;
+}
+
+.btn-primary.but1:hover{
+    background-color: whitesmoke;
+    border: white;
+    color: rgb(77, 76, 76);
+    cursor: pointer;
+    cursor:hand;
+}
+
+.btn-primary.but1{
+    background-color: transparent;
+}
+
 .but{
-    width: 15em;
-    margin-left: 20em;
-    margin-top: 2em;
-    background-color: black;
+    width: 15vw;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    height: 3vw;
     border: white solid ;
+    text-transform: uppercase;
+    font-size: 1vw;
+    color: white;
+    
+    
+}
+
+.but1{
+    width: 15vw;
+    border: white solid ;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    height: 3vw;
+    text-transform: uppercase;
+    font-size: 1vw;
 }
 
 .row9{
@@ -317,27 +344,22 @@ iframe{
 } */
 
 .pic4{
-    margin-top: 7em;
-    margin-left: 14em;
-    width: 28em;
-    height:19em;
+    margin-top: 7vw;
+    margin-left: 14vw;
+    width: 28vw;
+    height:19vw;
 }
 
 .p9{
-    margin-left: 6em;
-    margin-top: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
     margin-right: 13em;
-    font-size: 1.25rem;
+    font-size: 1.1vw;
     color: white;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.but1{
-    width: 15em;
-    margin-top: 2em;
-    background-color: black;
-    border: white solid ;
-    margin-right: 20em;
-}
+
 
 .con{
     /* background-image: url('../image/ppp.JPG'); */
@@ -352,59 +374,115 @@ iframe{
 .row10{
     background-color:rgb(218, 123, 8);
     margin-top: 7em;
-    height: 50em;
+    height: 50vw;
+    position: relative;
 
 }
 .book{
-    margin-left: 15em;
-    margin-top: 2em;
+    margin-left: 15.2vw;
+    margin-top: 2vw;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row24{
+    /* background-color: turquoise; */
+    width: 50%;
+    margin-left: 17vw;
 }
 
 .p10{
     color: white;
     margin-top: 2em;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     margin-left: 13em;
     margin-right: 13em;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .pic5{
-    width: 23em;
-    height:27em;
-    margin-left: 8em;
+    width: 23vw;
+    height:27vw;
+    margin-left: 8vw;
 
 }
 .row11{
     background-color:rgb(218, 123, 8) ;
     margin-top: 7em;
-    height: 50em;
+    height: 50vw;
 }
 
-.col13{
-    /* background-color: green; */
-    width: 53em;
+/* .col13{
+    background-color: green;
+    
 }
 .col14{
-    /* background-color: hotpink; */
-    width: 45.5em;
+    background-color: hotpink;
+    
+   
 }
 
+.row25{
+    background-color: brown;
+} */
 
 #contact{
-    margin-left: 8em;
+    margin-left: 22vw;
     margin-top: 1.5em;
+    font-size: 2.5vw;
 
 }
+
+#hr2{
+  margin-left: 57%;
+  margin-right: 36%;
+    border: white solid 0.1em;
+    
+}
+
 
 .p11{
     color: white;
-    margin-left: 13em;
-    margin-right: 2em;
-    margin-top: 2em;
-    font-size: 1.25rem;
+    padding-left: 13em;
+    padding-right: 0em;
+    margin-top: 3em;
+    font-size: 1.25vw;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputEmail{
+    width: 30vw;
+    height: 3vw;
+    background-color: rgb(223, 215, 215);
+}
+
+
+#fname{
+    width: 30vw;
+    height: 3vw;
+    background-color: rgb(223, 215, 215);
+ 
+}
+
+#range{
+    width: 15vw;
+    
 }
 
 .form1{
+    margin-top: 4vw;
+}
+
+.form{
+    /* background-color: blue; */
+    width:30vw;
+   
+   
+    
+}
+
+
+/* .form1{
     margin-top: 4.3em;
     margin-left: 1em;
 }
@@ -431,23 +509,24 @@ iframe{
 .form{
     margin-left: 1em;
     
-}
+} */
 
-.p12{
+label{
+    font-size: 1vw;
     color: white;
-    font-size: 1em;
     font-weight: bold;
+    
 }
 
 .ans{
-    height: 3.5em;
-    width: 35em;
+    height: 3.5vw;
+    width: 35vw;
     background-color: rgb(223, 215, 215);
 }
 
 .sub{
-    width:5em;
-    height: 3.5em;
+    width:6vw;
+    height: 3.5vw;
     background-color: rgb(223, 219, 215);
     color:rgb(49, 47, 46);
 
@@ -455,7 +534,8 @@ iframe{
 }
 
 #comment{
-    width: 35em;
+    width: 30vw;
+    height:12vw;
     background-color: rgb(223, 215, 215);
 
 }
@@ -479,7 +559,7 @@ iframe{
 
 .links{
     margin-top: 2em;
-    margin-left: 29em;
+    margin-left: 29.5em;
     
 }
 
@@ -488,19 +568,42 @@ iframe{
 }
 
 .button{
-    margin-top: 2em;
-    margin-left: 32em;
+    margin-top: 2vw;
+    margin-left: 33vw;
+    width: 5vw;
+    
+    
+}
+
+.myBtn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+
+}
+
+.myBtn:hover{
+    background-color: transparent;
 }
 
 #myBtn{
+    font-size:48px;
+    color:rgb(58, 58, 201);
+}
+
+
+
+
+/* #myBtn{
     border-radius:50%;
     height: 4em;
     width: 4em;
     cursor: pointer;
-    text-decoration: none;
-    border-color: black;
-    background-color: white;
-}
+    cursor: hand;
+   border: silver solid;
+   
+    
+}  */
 
 #pic6{
     width: 70%;
@@ -514,18 +617,21 @@ a:link{
     margin: 0 40%;
 }
 
-.btn{
-    background-color: tomato;
-}
+
 
 .navigation{
-    background-color: rgba(0, 128, 128, 0.315);
+    background-color: rgb(10, 8, 8,0.6);
+    height: 3vw;
+    width: 100%;
+   
+  
     
 }
 
 .navs{
     color:white;
-    font-size: 0.85em;
+    font-size: 0.85vw;
+    padding-top: 1vw;
 
 }
 
@@ -535,8 +641,53 @@ a:link{
 }
 
 .facebook{
-    margin-left: 60em;
+    margin-left: 58vw;
 }
 
+.insta{
+    margin-left: 1vw;
+}
 
+.tele{
+    margin-left: 1vw;
+}
+
+#link{
+    color: white;
+    font-size: 1.5vw;
+}
+
+#link:hover{
+    color: rgb(67, 185, 67);
+}
+
+#hr{
+    margin: 0 48.6%;
+    border: white solid 0.1em;
+}
+
+.fb{
+    background-color: white;
+    border: none;
+}
+
+/* .col20{
+    background-color: violet;
+}
+
+.col21{
+    background-color: yellow;
+}
+
+.col22{
+    background-color: yellow;
+
+}
+.col23{
+    background-color: turquoise;
+} */
+
+#footer{
+    color: rgb(82, 80, 80);
+}
 
