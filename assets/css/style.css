@@ -350,6 +350,13 @@ iframe{
     height:19vw;
 }
 
+.pic11{
+    margin-top: 2vw;
+    margin-left: 14vw;
+    width: 29vw;
+    height:27vw;
+}
+
 .p9{
     margin-left: 1em;
     margin-top: 2em;
@@ -357,6 +364,16 @@ iframe{
     font-size: 1.1vw;
     color: white;
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p19{
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-right: 13em;
+    font-size: 1.1vw;
+    color: white;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2.0vw;
 }
 
 
