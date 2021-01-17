@@ -160,3 +160,45 @@ body{
 .btnvideo i{
     margin-right: 50px;  
 }
+
+.rowcharity{
+    margin-top: 120px;
+}
+
+.img{
+    height: 330px;
+    width:600px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.colcharity2 h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.colcharity2 p{
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.btncharity{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 300px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.btncharity:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.btncharity i{
+    margin-right: 50px;  
+}
