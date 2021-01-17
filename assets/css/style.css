@@ -202,3 +202,42 @@ body{
 .btncharity i{
     margin-right: 50px;  
 }
+
+.colcourses1{
+    margin-top: 120px;
+}
+
+.colcourses1 h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.colcourses1 p{
+    font-size: 20px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.img2{
+    width:500px;
+    margin-top: 150px;
+}
+
+.btnvideo2{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 300px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.btnvideo2:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.btnvideo2 i{
+    margin-right: 50px;  
+}
