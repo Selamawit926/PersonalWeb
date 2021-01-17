@@ -241,3 +241,51 @@ body{
 .btnvideo2 i{
     margin-right: 50px;  
 }
+
+.newrowcard{
+    margin-top: 120px;
+}
+
+.cards{
+    height: 600px;
+    width: 400px;
+    margin-left: 50px ;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.expbtn{
+    margin-top: 30px;
+    width: 380px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.expbtn:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.expbtn i{
+    margin-right: 50px;
+}
+
+.cards p{
+    text-align: start;
+    font-size: 20px;
+}
+
+.img3{
+    height: 400px;
+    border-radius: 2%;
+}
+
+.card-title{
+    font-size: 35px;
+    text-align: start;
+}
+
