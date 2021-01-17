@@ -289,3 +289,93 @@ body{
     text-align: start;
 }
 
+footer{
+    height: 300px;
+    margin-top: 400px;
+    background-color: rgb(28, 28, 34);
+    
+}
+
+footer::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 487%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 487%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confoot{
+    position: absolute;
+    top:480%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confoot h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.copy{
+    /* background-color: tomato; */
+    margin-top: 150px;
+    height: 120px;
+}
+
+
+
+#links{
+    margin-right: 50px;
+    margin-top: 60px;
+    float: right;
+    color: white;
+    font-size: 13px;
+}
+
+#links2{
+    margin-right: 350px;
+    margin-top: 60px;
+    float: right;
+    color: white;
+    font-size: 13px;
+}
+
+#links2:hover{
+    color: yellow;
+}
+
+#links:hover{
+    color: yellow;
+}
+
+#linksp{
+    margin-right: 550px;
+    margin-top: 65px;
+    float: right;
+    color: white;
+    font-style: italic;
+}
+
+
+
