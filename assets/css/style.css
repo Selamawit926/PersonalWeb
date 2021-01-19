@@ -377,5 +377,196 @@ footer::before{
     font-style: italic;
 }
 
+.foot::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 198%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
 
+.foot::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:198%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confoot2{
+    position: absolute;
+    top:190%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confoot2 h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.colabout h1{
+    font-size: 90px;
+}
+
+.colabout2 p,.colabout2 ul{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 17px;
+}
+
+.colabout2 p{
+    margin-top:80px;
+}
+
+
+.colabout2 ul{
+    margin-top: 40px;
+}
+
+.rowblog2{
+    margin-top: 200px;
+}
+
+.colblog h3{
+    font-size: 38px;
+    font-weight: 300;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    color: rgb(43, 41, 41);
+}
+
+.col23 h2,.col20 h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.p8{
+    /* margin-left: 20px; */
+    margin-top: 2em;
+    /* margin-right: 5em; */
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+.but{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.but:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+
+.pic3{
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 420px;
+    height:300px;
+    
+}
+
+.pic4{
+    margin-top: 120px;
+    width: 450px;
+    height:300px;
+}
+
+.p9{
+    margin-left: 1em;
+    margin-top: 2em;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.but1{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.but1:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.but i,.but1 i{
+    margin-right: 50px;
+}
+
+.footblog::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 284%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
+
+.footblog::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:284%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confootblog{
+    position: absolute;
+    top:275%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confootblog h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.colcourses h1{
+    font-size: 100px;
+    text-align: center;
+}
 
