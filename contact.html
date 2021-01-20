@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-
+    
     <nav class="navbar navbar-expand-sm navi">
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -43,7 +43,7 @@
                     <a class="nav-link navs" href="#Books">BOOK</a>
                 </li>
                 <li>
-                    <a class="nav-link navs" href="#Courses">COURSES</a>
+                    <a class="nav-link navs" href="courses.html">COURSES</a>
                 </li>
                 <li>
                     <a class="nav-link navs" href="contact.html">CONTACT</a>
@@ -81,52 +81,65 @@
 
  </nav>
 
-<div class="container conabout">
-    <div class="row rowabout text-center">
-        <div class="col-md-12 colabout">
 
-            <h1>What I'm Doing Now</h1>
+ <div class="container conconatct">
+     <div class="row rowcontact1">
+         <div class="col-md-12">
+             <h1>Contact Me</h1>
+
+             <p class="p">
+               Thanks for being interested! I hope you got something out of my recommendations and descriptions.
+               To follow me on social
+                media follow the links. If you have suggestions, please use this form to get in touch and I'll 
+                reply as soon as I can.
+            </p>
+
+
+         </div>
+
+     </div>
+
+
+     <div class="row rowcontact2">
+
+        <div class="col-md-12 colcontact ">
+
+            <form class="form" method="POST" action="mailto:se.selamawit.elias@gmail.com" enctype="utf-8">
+
+                <div class="form-group form1">
+                    <label idfor="fname">Name</label>
+                    <input type="text" class="form-control input" required pattern="[a-zA-Z]{4-20}" title="Must be 4 to 20 characters from A-z" id="fname" >
+                </div>
+
+                <div class="form-group form2">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control input" id="inputEmail" >
+                </div>
+
+                <div class="form-group form3"> 
+                    <label><p class="p12"> How much did you enjoy this? Feel free to answer!</p></label>
+                    <input type="range" min="-10" max="10" class="form-control input" id="range">
+                </div>
+
+                <div class="form-group form4">
+                    <label for="detail"><p class="p12"> What's on your mind?</p></label>
+                    <textarea name="comment" id="comment"  class="form-control input" placeholder="Write something interesting here..."></textarea>
+                </div>
+               
+                <a href="" target="blank"  class="btn sub"><span> Submit</span></a>
+                
+                
+            </form>
 
         </div>
 
-    </div>
+     </div>
 
+ </div>
 
-    <div class="row rowabout2 ">
-        <div class="col-md-12 colabout2 ">
+ <footer class="page-footer font-small blue pt-4 footcontact">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores doloremque magni minima optio temporibus et aspernatur voluptatibus dolorum 
-                omnis eius eos quasi quod vel ad deserunt ipsa sed explicabo?</p>
-
-            <ul>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium tempore iusto, ipsum modi, ducimus adipisci aspernatur ea earum voluptates nemo error, dolor dolore eaque itaque amet maiores? Debitis, itaque quis?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, veniam! Minus, quaerat eius! Natus neque corrupti totam in ipsam, expedita laboriosam facilis ea, labore corporis dolorem cumque nesciunt commodi doloribus?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nesciunt accusamus culpa itaque, totam, recusandae repellat ducimus quasi earum maiores fugiat! Voluptatem eos dolore quia ratione voluptas facilis voluptatum deleniti?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam illum at nesciunt dolorem praesentium sint qui, deleniti harum magnam laudantium atque laboriosam assumenda? Nihil ea illo ipsam commodi minus!</li>
-            </ul>    
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nam odit expedita adipisci quam assumenda, necessitatibus itaque! Excepturi facere fuga impedit at minus. Dignissimos quod, commodi alias ullam perferendis natus?</p>
-            <ul>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium tempore iusto, ipsum modi, ducimus adipisci aspernatur ea earum voluptates nemo error, dolor dolore eaque itaque amet maiores? Debitis, itaque quis?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, veniam! Minus, quaerat eius! Natus neque corrupti totam in ipsam, expedita laboriosam facilis ea, labore corporis dolorem cumque nesciunt commodi doloribus?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nesciunt accusamus culpa itaque, totam, recusandae repellat ducimus quasi earum maiores fugiat! Voluptatem eos dolore quia ratione voluptas facilis voluptatum deleniti?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam illum at nesciunt dolorem praesentium sint qui, deleniti harum magnam laudantium atque laboriosam assumenda? Nihil ea illo ipsam commodi minus!</li>
-            </ul>    
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus earum debitis eius! Error doloribus in repudiandae deleniti dolorem officia voluptate, rerum, minus quia eligendi corporis enim! Numquam totam autem vel?</p>
-           
-        
-        </div>
-
-    </div>
-
-</div>
-
-
-
- <footer class="page-footer font-small blue pt-4 foot">
-
-    <div class="confoot2">
+    <div class="confootcontact">
 
       <h4>"Amatuers practice till they get it right, professionals practice till they can't get it wrong"</h4>
 
@@ -155,7 +168,8 @@
 
    </footer>
 
-   <script type="text/javascript" src="./assets/js/jquery-3.4.1.min.js"> </script>      
+
+<script type="text/javascript" src="./assets/js/jquery-3.4.1.min.js"> </script>      
    <script type="text/javascript" src="./assets/js/bootstrap.min.js"> </script>
 </body>
 </html>

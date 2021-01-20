@@ -579,7 +579,12 @@ footer::before{
 }
 
 .rowcourses{
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.rowcourses h2{
+    text-align: start;
+    margin-left: 12px;
 }
 
 .butcourses{
@@ -606,13 +611,15 @@ footer::before{
     width: 500px;
     height:320px;
 }
-
+.footcourses{
+    margin-top: 200px;
+}
 
 .footcourses::after{
     content: "";
     position: absolute;
     left: 0;
-    top: 322%;
+    top: 278%;
     border-left: 200px solid rgb(28, 28, 34);
     border-top: 30px solid transparent;
 }
@@ -621,7 +628,7 @@ footer::before{
     content: "";
     position: absolute;
     right: 0;
-    top:322%;
+    top:278%;
     border-left: 200px solid transparent;
     border-bottom: 30px solid rgb(28, 28, 34);
     
@@ -629,7 +636,7 @@ footer::before{
 
 .confootcourses{
     position: absolute;
-    top:315%;
+    top:270%;
     left: 9%;
     z-index: 1;
     height:200px;
@@ -642,6 +649,100 @@ footer::before{
 }
 
 .confootcourses h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.rowcontact1{
+    margin-top: 50px;
+}
+
+.rowcontact1 h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+}
+
+.rowcontact1 p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.rowcontact2{
+    margin-top: 80px;
+}
+
+.form{
+    margin-left: 250px;
+    /* margin-right: 400px; */
+}
+label{
+    font-size: 20px;
+}
+
+#comment{
+    height: 170px;
+}
+
+.input{
+    width: 600px;
+}
+
+.sub{
+    background-color: red;
+    color: white;
+    width: 150px;
+    font-size: 18px;
+}
+
+.sub:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.footcontact{
+    margin-top: 200px;
+}
+
+.footcontact::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 160%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
+
+.footcontact::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:160%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confootcontact{
+    position: absolute;
+    top:155%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confootcontact h4{
     color: rgb(255, 255, 255);
     margin-top: 45px;
     text-align: center;
