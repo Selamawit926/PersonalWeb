@@ -9,10 +9,10 @@ body{
 
 .navs{
     color:rgb(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 18px;
     padding-top: 1em;
     margin-right: 20px;
-    width: 100px;
+    width: 140px;
     height: 60px;
     text-align: center;
     
@@ -21,6 +21,10 @@ body{
 .navs:hover{
     color: rgb(255, 255, 255);
     background-color: black;
+}
+
+.navs span{
+    padding-left: 13px;
 }
 
 .navigation{
@@ -55,11 +59,15 @@ body{
 #link{
     color: rgb(0, 0, 0);
     font-size: 1rem;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 #link:hover{
     color: rgb(135, 141, 135);
+}
+
+.tele{
+    margin-right: 50px;
 }
 
 .colback{
@@ -748,4 +756,102 @@ label{
     text-align: center;
     font-size: 35px;
     font-style: italic;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 420px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+float: none;
+color: black;
+padding-top: 30px;
+padding-left:40px;
+margin-left: 20px;
+margin-right: 20px;
+padding-bottom: 10px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: 15px;
+text-transform: uppercase;
+
+}
+
+#write{
+    border-bottom: 1px solid #ddd;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(235, 235, 235);
+}
+
+.dropdown>a>span{
+    padding-left: 13px;
+}
+.dropdown .navsabout {
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    padding-top: 19px;
+    margin-right: 20px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    background-color: white;
+  }
+  
+.dropdown:hover .navsabout{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.what i{
+    margin-right: 20px;
+}
+
+#down2{
+    display:none;
+}
+.dropdown:hover #down {
+    display:none;  
+}
+.dropdown:hover #down2 {
+    display:inline-block;  
+} 
+
+.navsabout::after,.navsabout::before{
+    transition: all .5s;
+}
+
+.navsabout::after{
+ display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.navsabout:hover:after{
+    animation: circle 1.5s ease-in forwards;
 }
