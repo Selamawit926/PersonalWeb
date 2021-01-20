@@ -566,7 +566,85 @@ footer::before{
 }
 
 .colcourses h1{
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
+    text-transform: uppercase;
 }
 
+.colcourses p{
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.rowcourses{
+    margin-top: 150px;
+}
+
+.butcourses{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    background-color: red;
+    font-size: 17px;
+    opacity: 0.8;
+    color: white;
+}
+
+.butcourses:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.butcourses i{
+    margin-right: 50px;
+}
+
+.piccourses{
+    margin-top: 100px;
+    width: 500px;
+    height:320px;
+}
+
+
+.footcourses::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 322%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
+
+.footcourses::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:322%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confootcourses{
+    position: absolute;
+    top:315%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confootcourses h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
