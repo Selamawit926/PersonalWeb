@@ -87,6 +87,11 @@ body{
     color: white;
 }
 
+/* .colback h3:not([data-scroll='0']) {
+    margin-top: 200px;
+  } */
+
+
 .rowback::after{
     content: "";
     position: absolute;
@@ -229,6 +234,7 @@ body{
 .img2{
     width:500px;
     margin-top: 150px;
+    height:300px;
 }
 
 .btnvideo2{
@@ -308,7 +314,7 @@ footer::after{
     content: "";
     position: absolute;
     left: 0;
-    top: 487%;
+    top: 504%;
     border-left: 200px solid rgb(28, 28, 34);
     border-top: 30px solid transparent;
 }
@@ -317,7 +323,7 @@ footer::before{
     content: "";
     position: absolute;
     right: 0;
-    top: 487%;
+    top: 504%;
     border-left: 200px solid transparent;
     border-bottom: 30px solid rgb(28, 28, 34);
     
@@ -325,7 +331,7 @@ footer::before{
 
 .confoot{
     position: absolute;
-    top:480%;
+    top:495%;
     left: 9%;
     z-index: 1;
     height:200px;
@@ -389,7 +395,7 @@ footer::before{
     content: "";
     position: absolute;
     left: 0;
-    top: 198%;
+    top: 172%;
     border-left: 200px solid rgb(28, 28, 34);
     border-top: 30px solid transparent;
 }
@@ -398,7 +404,7 @@ footer::before{
     content: "";
     position: absolute;
     right: 0;
-    top:198%;
+    top:172%;
     border-left: 200px solid transparent;
     border-bottom: 30px solid rgb(28, 28, 34);
     
@@ -406,7 +412,7 @@ footer::before{
 
 .confoot2{
     position: absolute;
-    top:190%;
+    top:165%;
     left: 9%;
     z-index: 1;
     height:200px;
@@ -771,10 +777,11 @@ label{
 .dropdown-content a {
 float: none;
 color: black;
-padding-top: 30px;
+padding-top: 20px;
 padding-left:40px;
 margin-left: 20px;
 margin-right: 20px;
+margin-top: 10px;
 padding-bottom: 10px;
 text-decoration: none;
 display: block;
