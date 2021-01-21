@@ -71,7 +71,7 @@ body{
 }
 
 .colback{
-    background: url(../image/self6.jpg);
+    background: url(../image/self7.jpg);
     background-repeat: no-repeat;
     height: 800px;
     z-index: 0;
@@ -861,4 +861,163 @@ background-color: rgb(235, 235, 235);
 
 .navsabout:hover:after{
     animation: circle 1.5s ease-in forwards;
+}
+
+.row1 h1{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.row2{
+    margin-top: 80px;
+}
+
+.col1{
+    /* background-color: blue; */
+    padding-left: 100px;
+}
+
+.col1 h2{
+    font-size: 33px;
+    font-weight: 350;
+}
+
+.col1 p{
+    padding-top: 35px;
+    font-size: 17px;
+}
+
+.picabout{
+    width: 700px;
+    height: 450px;
+}
+
+.row3{
+    margin-top: 100px;
+}
+
+.col2{
+    margin-top: 100px;
+    background-color: white;
+    height:70px;
+}
+
+.col2 a {
+    text-decoration: none;
+    padding-right:350px;
+    /* padding-left: 50px; */
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+    
+}
+
+.col2 a:hover{
+    color:rgb(82, 82, 82);
+}
+
+.row4{
+    margin-top: 100px;
+}
+
+.col3 h1{
+    text-align:center;
+    font-size:60px;
+    font-weight:300;
+}
+
+.col3 p{
+    padding-top:30px;
+    padding-left: 350px;
+    padding-right:350px;
+    font-size:17px;
+}
+
+.row5{
+    margin-top: 100px;
+}
+
+.col4 h1{
+    text-align:center;
+    font-size:60px;
+    font-weight:300;
+}
+
+.col4>p>span{
+    font-weight: bold;
+}
+
+.col4 p{
+    padding-top:30px;
+    padding-left: 350px;
+    padding-right:350px;
+    font-size:17px;
+    font-weight: 400;
+}
+
+.row6{
+    margin-top: 100px;
+}
+
+.col5 h1{
+    text-align:center;
+    font-size:60px;
+    font-weight:300;
+}
+
+.col5 p{
+    padding-top:30px;
+    padding-left: 350px;
+    padding-right:350px;
+    font-size:17px;
+    font-weight: 400;
+}
+
+.col5>p>a{
+    text-decoration: none;
+    color: red;
+}
+
+.foots{
+    margin-top: 200px;
+}
+
+.foots::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 312%;
+    border-left: 200px solid rgb(28, 28, 34);
+    border-top: 30px solid transparent;
+}
+
+.foots::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:312%;
+    border-left: 200px solid transparent;
+    border-bottom: 30px solid rgb(28, 28, 34);
+    
+}
+
+.confoots{
+    position: absolute;
+    top:305%;
+    left: 9%;
+    z-index: 1;
+    height:200px;
+    width: 1300px;
+    /* background-color: thistle; */
+    background: url(../image/raindrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.confoots h4{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
 }
