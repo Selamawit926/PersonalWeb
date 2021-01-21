@@ -621,9 +621,9 @@ footer::before{
 }
 
 .piccourses{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 500px;
-    height:320px;
+    height:400px;
 }
 .footcourses{
     margin-top: 200px;
@@ -633,7 +633,7 @@ footer::before{
     content: "";
     position: absolute;
     left: 0;
-    top: 278%;
+    top: 286%;
     border-left: 200px solid rgb(28, 28, 34);
     border-top: 30px solid transparent;
 }
@@ -642,7 +642,7 @@ footer::before{
     content: "";
     position: absolute;
     right: 0;
-    top:278%;
+    top:286%;
     border-left: 200px solid transparent;
     border-bottom: 30px solid rgb(28, 28, 34);
     
@@ -650,7 +650,7 @@ footer::before{
 
 .confootcourses{
     position: absolute;
-    top:270%;
+    top:280%;
     left: 9%;
     z-index: 1;
     height:200px;
