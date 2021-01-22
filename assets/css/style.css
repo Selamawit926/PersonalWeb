@@ -11,7 +11,7 @@ body{
 .navs{
     color:rgb(0, 0, 0);
     font-size: 16px;
-    padding-top: 1em;
+    padding-top: 20px;
     margin-right: 20px;
     width: 140px;
     height: 60px;
@@ -35,6 +35,75 @@ body{
     padding-right: 20px;
     text-align: center;
     
+}
+
+.btnnav{
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:500px){
+    .colback{
+        background: url(../image/self9.jpg);
+        background-repeat: no-repeat;
+        background-size: 32%;
+        height: 800px;
+        z-index: 0;
+        background-size: cover;
+    }
+
+    .rowback::after{
+        content: none;
+        
+    }
+    
+    .rowback::before{
+        content: none;
+        
+    }
+
+    .foot::after{
+        content: none;
+    }
+
+    .foot::before{
+        content: none;
+    }
+
+    .colintro h3{
+        font-size: 35px;
+        font-weight: 300;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgb(43, 41, 41);
+    }
+
+    .conback{
+        margin-top: 200px;
+    }
+
+    .navigation{
+        display: inline-block;
+    }
+
+    .confoot{
+        position: static;
+        z-index: 1;
+        height:200px;
+        width: 100px;
+        /* background-color: thistle; */
+        background: url(../image/candle.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 3%;
+    }
+    
+    .confoot h4{
+        color: rgb(255, 255, 255);
+        margin-top: 45px;
+        text-align: center;
+        font-size: 35px;
+        font-style: italic;
+    }
 }
 
 .name{
@@ -778,7 +847,7 @@ label{
 .dropdown-content a {
 float: none;
 color: black;
-padding-top: 20px;
+padding-top: 22px;
 padding-left:40px;
 margin-left: 20px;
 margin-right: 20px;

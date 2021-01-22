@@ -1,3 +1,7 @@
-document.getElementByTag("body").onscroll = function(){
-    document.getElementById("scroll").style.marginTop="200px";
-}
+function openNav() {
+    document.getElementById("collapsibleNavBar").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("collapsibleNavBar").style.width = "0";
+  }
